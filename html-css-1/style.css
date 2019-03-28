@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 150vh;
+}
+.nav{
+    height: 10vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.companyName{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.companyText{
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 2.5vh;
+    color: white;
+}
+.userNav{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+    text-transform: capitalize;
+}
+.userLinks{
+    color: white;
+}
+.title{
+    display: flex;
+    /* border: 1px solid #000; */
+    height: 40vh;
+    text-transform: uppercase;
+    color: yellow;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 900;
+}
+.mainBody{
+    display: flex;
+    flex-direction: column;
+}
+.firstRow{
+    /* border: 1px solid greenyellow; */
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.greenBoxes{
+    height: 25vh;
+    width: 25vh;
+    background: greenyellow;
+    border-radius: 10px;
+}
+.secondRow{
+    /* border: 1px solid orange; */
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.orangeBoxes{
+    height: 25vh;
+    width: 35vw;
+    background-color: orange;
+}
+.textPic{
+    /* border: 1px solid #000; */
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.text{
+    width: 35vw;
+    text-align: left;
+    font-size: 12px;
+}
